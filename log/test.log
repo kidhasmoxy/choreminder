@@ -1,0 +1,568 @@
+  [4;36;1mChore Create (0.5ms)[0m   [0;1mINSERT INTO "chores" ("name", "updated_at", "description", "duration", "created_at") VALUES('value for name', '2009-05-30 22:16:13', 'value for description', 1, '2009-05-30 22:16:13')[0m
+
+
+Processing ChoresController#index (for 0.0.0.0 at 2009-05-30 18:16:13) [GET]
+  [4;35;1mChore Load (0.2ms)[0m   [0mSELECT * FROM "chores" [0m
+Rendering chores/index
+Completed in 3ms (View: 0, DB: 1) | 200 OK [http://test.host/chores]
+Rendering chores/index
+Rendering peoples/edit.html.erb
+  [4;36;1mPeople Create (0.5ms)[0m   [0;1mINSERT INTO "peoples" ("updated_at", "first_name", "last_name", "email", "created_at") VALUES('2009-05-30 22:16:13', 'value for first_name', 'value for last_name', 'value for email', '2009-05-30 22:16:13')[0m
+Rendering peoples/index.html.erb
+Rendering peoples/new.html.erb
+
+
+Processing PeoplesController#destroy (for 0.0.0.0 at 2009-05-30 18:16:13) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/peoples
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/peoples/37]
+
+
+Processing PeoplesController#destroy (for 0.0.0.0 at 2009-05-30 18:16:13) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/peoples
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/peoples/1]
+
+
+Processing PeoplesController#update (for 0.0.0.0 at 2009-05-30 18:16:13) [PUT]
+  Parameters: {"id"=>"37", "people"=>{"these"=>"params"}}
+Rendering template within layouts/peoples
+Rendering peoples/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples/37?people%5Bthese%5D=params]
+
+
+Processing PeoplesController#update (for 0.0.0.0 at 2009-05-30 18:16:13) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/peoples
+Rendering peoples/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples/1]
+
+
+Processing PeoplesController#update (for 0.0.0.0 at 2009-05-30 18:16:13) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/peoples
+Rendering peoples/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples/1]
+
+
+Processing PeoplesController#update (for 0.0.0.0 at 2009-05-30 18:16:13) [PUT]
+  Parameters: {"id"=>"37", "people"=>{"these"=>"params"}}
+Rendering template within layouts/peoples
+Rendering peoples/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples/37?people%5Bthese%5D=params]
+
+
+Processing PeoplesController#update (for 0.0.0.0 at 2009-05-30 18:16:13) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/peoples/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/peoples/1]
+
+
+Processing PeoplesController#update (for 0.0.0.0 at 2009-05-30 18:16:13) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/peoples/1012
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/peoples/1]
+
+
+Processing PeoplesController#create (for 0.0.0.0 at 2009-05-30 18:16:13) [POST]
+  Parameters: {"people"=>{"these"=>"params"}}
+Rendering template within layouts/peoples
+Rendering peoples/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples?people%5Bthese%5D=params]
+
+
+Processing PeoplesController#create (for 0.0.0.0 at 2009-05-30 18:16:13) [POST]
+  Parameters: {"people"=>{}}
+Rendering template within layouts/peoples
+Rendering peoples/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples?]
+
+
+Processing PeoplesController#create (for 0.0.0.0 at 2009-05-30 18:16:13) [POST]
+  Parameters: {"people"=>{"these"=>"params"}}
+Redirected to http://test.host/peoples/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/peoples?people%5Bthese%5D=params]
+
+
+Processing PeoplesController#create (for 0.0.0.0 at 2009-05-30 18:16:13) [POST]
+  Parameters: {"people"=>{}}
+Redirected to http://test.host/peoples/1016
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/peoples?]
+
+
+Processing PeoplesController#edit (for 0.0.0.0 at 2009-05-30 18:16:13) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/peoples
+Rendering peoples/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples/37/edit]
+
+
+Processing PeoplesController#new (for 0.0.0.0 at 2009-05-30 18:16:13) [GET]
+Rendering template within layouts/peoples
+Rendering peoples/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples/new]
+
+
+Processing PeoplesController#show (for 0.0.0.0 at 2009-05-30 18:16:13) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/peoples
+Rendering peoples/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples/37]
+
+
+Processing PeoplesController#index (for 0.0.0.0 at 2009-05-30 18:16:13) [GET]
+Rendering template within layouts/peoples
+Rendering peoples/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/peoples]
+Rendering peoples/show.html.erb
+  [4;36;1mChore Create (0.5ms)[0m   [0;1mINSERT INTO "chores" ("name", "updated_at", "description", "duration", "created_at") VALUES('value for name', '2009-05-30 22:19:07', 'value for description', 1, '2009-05-30 22:19:07')[0m
+
+
+Processing ChoresController#index (for 0.0.0.0 at 2009-05-30 18:19:07) [GET]
+  [4;35;1mChore Load (0.2ms)[0m   [0mSELECT * FROM "chores" [0m
+Rendering chores/index
+Completed in 3ms (View: 0, DB: 1) | 200 OK [http://test.host/chores]
+Rendering chores/index
+Rendering people/edit.html.erb
+  [4;36;1mPerson Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("updated_at", "first_name", "last_name", "email", "created_at") VALUES('2009-05-30 22:19:07', 'value for first_name', 'value for last_name', 'value for email', '2009-05-30 22:19:07')[0m
+Rendering people/index.html.erb
+Rendering people/new.html.erb
+
+
+Processing PeopleController#destroy (for 0.0.0.0 at 2009-05-30 18:19:07) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/people
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/people/37]
+
+
+Processing PeopleController#destroy (for 0.0.0.0 at 2009-05-30 18:19:07) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/people
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:19:07) [PUT]
+  Parameters: {"id"=>"37", "person"=>{"these"=>"params"}}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37?person%5Bthese%5D=params]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:19:07) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:19:07) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:19:07) [PUT]
+  Parameters: {"id"=>"37", "person"=>{"these"=>"params"}}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37?person%5Bthese%5D=params]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:19:07) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/people/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:19:07) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/people/1012
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people/1]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:19:07) [POST]
+  Parameters: {"person"=>{"these"=>"params"}}
+Rendering template within layouts/people
+Rendering people/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people?person%5Bthese%5D=params]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:19:07) [POST]
+  Parameters: {"person"=>{}}
+Rendering template within layouts/people
+Rendering people/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people?]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:19:07) [POST]
+  Parameters: {"person"=>{"these"=>"params"}}
+Redirected to http://test.host/people/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people?person%5Bthese%5D=params]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:19:07) [POST]
+  Parameters: {"person"=>{}}
+Redirected to http://test.host/people/1016
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people?]
+
+
+Processing PeopleController#edit (for 0.0.0.0 at 2009-05-30 18:19:07) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37/edit]
+
+
+Processing PeopleController#new (for 0.0.0.0 at 2009-05-30 18:19:07) [GET]
+Rendering template within layouts/people
+Rendering people/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/new]
+
+
+Processing PeopleController#show (for 0.0.0.0 at 2009-05-30 18:19:07) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/people
+Rendering people/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37]
+
+
+Processing PeopleController#index (for 0.0.0.0 at 2009-05-30 18:19:07) [GET]
+Rendering template within layouts/people
+Rendering people/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people]
+Rendering people/show.html.erb
+  [4;36;1mChore Create (0.5ms)[0m   [0;1mINSERT INTO "chores" ("name", "updated_at", "description", "duration", "created_at") VALUES('value for name', '2009-05-30 22:20:31', 'value for description', 1, '2009-05-30 22:20:31')[0m
+
+
+Processing ChoresController#index (for 0.0.0.0 at 2009-05-30 18:20:31) [GET]
+  [4;35;1mChore Load (0.2ms)[0m   [0mSELECT * FROM "chores" [0m
+Rendering chores/index
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/chores]
+Rendering people/show.html.erb
+Rendering people/edit.html.erb
+  [4;36;1mPerson Create (0.4ms)[0m   [0;1mINSERT INTO "people" ("updated_at", "first_name", "last_name", "email", "created_at") VALUES('2009-05-30 22:20:31', 'value for first_name', 'value for last_name', 'value for email', '2009-05-30 22:20:31')[0m
+
+
+Processing PeopleController#destroy (for 0.0.0.0 at 2009-05-30 18:20:31) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/people
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/people/37]
+
+
+Processing PeopleController#destroy (for 0.0.0.0 at 2009-05-30 18:20:31) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/people
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:20:31) [PUT]
+  Parameters: {"id"=>"37", "person"=>{"these"=>"params"}}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37?person%5Bthese%5D=params]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:20:31) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:20:31) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:20:31) [PUT]
+  Parameters: {"id"=>"37", "person"=>{"these"=>"params"}}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37?person%5Bthese%5D=params]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:20:31) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/people/1009
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:20:31) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/people/1010
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people/1]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:20:31) [POST]
+  Parameters: {"person"=>{"these"=>"params"}}
+Rendering template within layouts/people
+Rendering people/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people?person%5Bthese%5D=params]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:20:31) [POST]
+  Parameters: {"person"=>{}}
+Rendering template within layouts/people
+Rendering people/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people?]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:20:31) [POST]
+  Parameters: {"person"=>{"these"=>"params"}}
+Redirected to http://test.host/people/1013
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people?person%5Bthese%5D=params]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:20:31) [POST]
+  Parameters: {"person"=>{}}
+Redirected to http://test.host/people/1014
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people?]
+
+
+Processing PeopleController#edit (for 0.0.0.0 at 2009-05-30 18:20:31) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37/edit]
+
+
+Processing PeopleController#new (for 0.0.0.0 at 2009-05-30 18:20:31) [GET]
+Rendering template within layouts/people
+Rendering people/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/new]
+
+
+Processing PeopleController#show (for 0.0.0.0 at 2009-05-30 18:20:31) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/people
+Rendering people/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37]
+
+
+Processing PeopleController#index (for 0.0.0.0 at 2009-05-30 18:20:31) [GET]
+Rendering template within layouts/people
+Rendering people/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people]
+Rendering people/new.html.erb
+Rendering people/index.html.erb
+  [4;36;1mChore Create (0.7ms)[0m   [0;1mINSERT INTO "chores" ("name", "updated_at", "description", "duration", "created_at") VALUES('value for name', '2009-05-30 22:27:27', 'value for description', 1, '2009-05-30 22:27:27')[0m
+Rendering people/edit.html.erb
+Rendering people/index.html.erb
+Rendering people/new.html.erb
+
+
+Processing PeopleController#destroy (for 0.0.0.0 at 2009-05-30 18:27:28) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/people
+Completed in 3ms (DB: 0) | 302 Found [http://test.host/people/37]
+
+
+Processing PeopleController#destroy (for 0.0.0.0 at 2009-05-30 18:27:28) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/people
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"37", "person"=>{"these"=>"params"}}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37?person%5Bthese%5D=params]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"37", "person"=>{"these"=>"params"}}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37?person%5Bthese%5D=params]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/people/1011
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people/1]
+
+
+Processing PeopleController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/people/1012
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people/1]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:27:28) [POST]
+  Parameters: {"person"=>{"these"=>"params"}}
+Rendering template within layouts/people
+Rendering people/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people?person%5Bthese%5D=params]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:27:28) [POST]
+  Parameters: {"person"=>{}}
+Rendering template within layouts/people
+Rendering people/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people?]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:27:28) [POST]
+  Parameters: {"person"=>{"these"=>"params"}}
+Redirected to http://test.host/people/1015
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people?person%5Bthese%5D=params]
+
+
+Processing PeopleController#create (for 0.0.0.0 at 2009-05-30 18:27:28) [POST]
+  Parameters: {"person"=>{}}
+Redirected to http://test.host/people/1016
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/people?]
+
+
+Processing PeopleController#edit (for 0.0.0.0 at 2009-05-30 18:27:28) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/people
+Rendering people/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37/edit]
+
+
+Processing PeopleController#new (for 0.0.0.0 at 2009-05-30 18:27:28) [GET]
+Rendering template within layouts/people
+Rendering people/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/new]
+
+
+Processing PeopleController#show (for 0.0.0.0 at 2009-05-30 18:27:28) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/people
+Rendering people/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people/37]
+
+
+Processing PeopleController#index (for 0.0.0.0 at 2009-05-30 18:27:28) [GET]
+Rendering template within layouts/people
+Rendering people/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/people]
+Rendering people/show.html.erb
+  [4;35;1mPerson Create (1.2ms)[0m   [0mINSERT INTO "people" ("updated_at", "first_name", "last_name", "email", "created_at") VALUES('2009-05-30 22:27:28', 'value for first_name', 'value for last_name', 'value for email', '2009-05-30 22:27:28')[0m
+
+
+Processing ChoresController#destroy (for 0.0.0.0 at 2009-05-30 18:27:28) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/chores
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/chores/37]
+
+
+Processing ChoresController#destroy (for 0.0.0.0 at 2009-05-30 18:27:28) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/chores
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/chores/1]
+
+
+Processing ChoresController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"37", "chore"=>{"these"=>"params"}}
+Rendering template within layouts/chores
+Rendering chores/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/chores/37?chore%5Bthese%5D=params]
+
+
+Processing ChoresController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/chores
+Rendering chores/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/chores/1]
+
+
+Processing ChoresController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/chores
+Rendering chores/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/chores/1]
+
+
+Processing ChoresController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"37", "chore"=>{"these"=>"params"}}
+Rendering template within layouts/chores
+Rendering chores/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/chores/37?chore%5Bthese%5D=params]
+
+
+Processing ChoresController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/chores/1028
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/chores/1]
+
+
+Processing ChoresController#update (for 0.0.0.0 at 2009-05-30 18:27:28) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/chores/1029
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/chores/1]
+
+
+Processing ChoresController#create (for 0.0.0.0 at 2009-05-30 18:27:28) [POST]
+  Parameters: {"chore"=>{"these"=>"params"}}
+Rendering template within layouts/chores
+Rendering chores/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/chores?chore%5Bthese%5D=params]
+
+
+Processing ChoresController#create (for 0.0.0.0 at 2009-05-30 18:27:28) [POST]
+  Parameters: {"chore"=>{}}
+Rendering template within layouts/chores
+Rendering chores/new
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/chores?]
+
+
+Processing ChoresController#create (for 0.0.0.0 at 2009-05-30 18:27:28) [POST]
+  Parameters: {"chore"=>{"these"=>"params"}}
+Redirected to http://test.host/chores/1032
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/chores?chore%5Bthese%5D=params]
+
+
+Processing ChoresController#create (for 0.0.0.0 at 2009-05-30 18:27:28) [POST]
+  Parameters: {"chore"=>{}}
+Redirected to http://test.host/chores/1033
+Completed in 1ms (DB: 0) | 302 Found [http://test.host/chores?]
+
+
+Processing ChoresController#edit (for 0.0.0.0 at 2009-05-30 18:27:28) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/chores
+Rendering chores/edit
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/chores/37/edit]
+
+
+Processing ChoresController#new (for 0.0.0.0 at 2009-05-30 18:27:28) [GET]
+Rendering template within layouts/chores
+Rendering chores/new
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/chores/new]
+
+
+Processing ChoresController#show (for 0.0.0.0 at 2009-05-30 18:27:28) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/chores
+Rendering chores/show
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/chores/37]
+
+
+Processing ChoresController#index (for 0.0.0.0 at 2009-05-30 18:27:28) [GET]
+Rendering template within layouts/chores
+Rendering chores/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/chores]
+Rendering chores/edit.html.erb
+Rendering chores/new.html.erb
+Rendering chores/show.html.erb
+Rendering chores/index.html.erb

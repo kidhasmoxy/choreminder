@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @chore.name %>
+</p>
+
+<p>
+  <b>Duration:</b>
+  <%=h @chore.duration %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @chore.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_chore_path(@chore) %> |
+<%= link_to 'Back', chores_path %>
