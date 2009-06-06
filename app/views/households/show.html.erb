@@ -1,0 +1,13 @@
+<h1><%= h @household.name -%></h1>
+
+<div>
+	<h3>Chores</h3>
+	<%= render :partial => 'chores', :locals => {:chores => @household.chores} -%>
+</div>
+<p>
+	<%= link_to 'Add Chore', new_household_chore_path(@household) -%>
+	|
+  <%= link_to 'Edit', edit_household_path(@household) -%>
+  |
+  <%= link_to 'Back', households_path -%>
+</p>

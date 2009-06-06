@@ -1,0 +1,8 @@
+<h1>New Chore</h1>
+
+<% form_for([@household,@chore]) do |form| %>
+  <%= render :partial => 'form', :locals => {:form => form} %>
+  <p><%= form.submit 'Create' %></p>
+<% end %>
+
+<p><%= link_to 'Back', household_chores_path %></p>

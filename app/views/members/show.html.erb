@@ -1,0 +1,22 @@
+<dl>
+  <dt>First name</dt>
+  <dd><%= h @member.first_name %></dd>
+  <dt>Last name</dt>
+  <dd><%= h @member.last_name %></dd>
+  <dt>Email</dt>
+  <dd><%= h @member.email %></dd>
+  <dt>Area code</dt>
+  <dd><%= h @member.area_code %></dd>
+  <dt>Mobile number</dt>
+  <dd><%= h @member.mobile_number %></dd>
+  <dt>Manager</dt>
+  <dd><%= h @member.manager %></dd>
+  <dt>Household</dt>
+  <dd><%= h @member.household_id %></dd>
+</dl>
+
+<p>
+  <%= link_to 'Edit', edit_member_path(@member)%>
+  |
+  <%= link_to 'Back', members_path %>
+</p>

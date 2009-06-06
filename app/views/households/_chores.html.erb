@@ -1,0 +1,20 @@
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Duration</th>
+    <th>Active</th>
+  </tr>
+
+  <% for chore in chores %>
+  <tr>
+    <td><%= h chore.name %></td>
+    <td><%= h chore.description %></td>
+    <td><%= h chore.duration %></td>
+    <td><%= h chore.active %></td>
+    <td><%= link_to 'Show', chore %></td>
+    <td><%= link_to 'Edit', edit_chore_path(chore) %></td>
+    <td><%= link_to 'Destroy', chore, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+  <% end %>
+</table>

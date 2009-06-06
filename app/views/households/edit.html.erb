@@ -1,0 +1,12 @@
+<h1>Editing Household</h1>
+
+<% form_for(@household) do |form| %>
+  <%= render :partial => 'form', :locals => {:form => form} %>
+  <p><%= form.submit 'Update' %></p>
+<% end %>
+
+<p>
+  <%= link_to 'Show', @household %>
+  |
+  <%= link_to 'Back', households_path %>
+</p>

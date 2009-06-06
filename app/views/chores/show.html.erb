@@ -1,0 +1,30 @@
+<dl>
+  <dt>Name</dt>
+  <dd><%= h @chore.name %></dd>
+  <dt>Description</dt>
+  <dd><%= h @chore.description %></dd>
+  <dt>Duration</dt>
+  <dd><%= h @chore.duration %></dd>
+  <dt>On monday</dt>
+  <dd><%= h @chore.on_monday %></dd>
+  <dt>On tuesday</dt>
+  <dd><%= h @chore.on_tuesday %></dd>
+  <dt>On wednesday</dt>
+  <dd><%= h @chore.on_wednesday %></dd>
+  <dt>On thursday</dt>
+  <dd><%= h @chore.on_thursday %></dd>
+  <dt>On friday</dt>
+  <dd><%= h @chore.on_friday %></dd>
+  <dt>On saturday</dt>
+  <dd><%= h @chore.on_saturday %></dd>
+  <dt>On sunday</dt>
+  <dd><%= h @chore.on_sunday %></dd>
+  <dt>Active</dt>
+  <dd><%= h @chore.active %></dd>
+</dl>
+
+<p>
+  <%= link_to 'Edit', edit_chore_path(@chore)%>
+  |
+  <%= link_to 'Back', household_chores_path(@chore.household) %>
+</p>

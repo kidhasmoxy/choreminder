@@ -1,0 +1,18 @@
+<h1> Listing Households</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+
+  <% for household in @households %>
+  <tr>
+    <td><%= h household.name %></td>
+    <td><%= link_to 'Show', household %></td>
+    <td><%= link_to 'Edit', edit_household_path(household) %></td>
+    <td><%= link_to 'Destroy', household, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+  <% end %>
+</table>
+
+<p><%= link_to 'New Household', new_household_path %></p>
